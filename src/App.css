@@ -180,3 +180,50 @@ html, body {
     font-size: 1.5rem !important;
   }
 }
+
+/* src/App.css (agregar al final) */
+.navbar-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.slick-dots {
+  bottom: 20px !important;
+}
+
+.slick-dots li button:before {
+  color: white !important;
+  font-size: 12px !important;
+}
+
+.slick-prev, .slick-next {
+  color: white !important;
+  font-size: 24px !important;
+  z-index: 2;
+}
+
+.slick-prev {
+  left: 20px !important;
+}
+
+.slick-next {
+  right: 20px !important;
+}
+
+.overlay {
+  transition: background-color 0.5s ease;
+}
+
+.hero-body:hover .overlay {
+  background-color: rgba(0,0,0,0.6);
+}
+
+@media (max-width: 768px) {
+  .hero-body {
+    height: 300px !important;
+  }
+  
+  .title {
+    font-size: 1.5rem !important;
+  }
+}
